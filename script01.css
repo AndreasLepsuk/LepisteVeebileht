@@ -1,0 +1,74 @@
+body {
+    background-color: #666666;
+    color: #cccccc;
+}
+#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2e2e2e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#logorida {
+    background-color: #2e2e2e;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.slider {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: slide 30s infinite;
+}
+@keyframes slide {
+    0%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/asus1.png);
+    }
+    20%{
+        width: 571px;
+        height: 300px;
+        background: url(Images/asus.png);
+    }
+    40%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/Asus_ROG.jpg);
+    }
+    60%{
+        width: 571px;
+        height: 300px;
+        background: url(Images/razer.jpg);
+    }
+    80%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/rtx.jpg);
+    }
+    100%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/steelseries.png);   
+    }
+}
+#Meist h2 {
+    margin-top: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #2e2e2e;
+    text-decoration: underline;
+}
+#Meist1 p {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#footer {
+    margin-top: 250px;
+}

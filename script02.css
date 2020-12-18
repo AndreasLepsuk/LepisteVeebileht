@@ -1,0 +1,134 @@
+body {
+    background-color: #666666;
+    color: #cccccc;
+}
+#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2e2e2e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#logorida {
+    background-color: #2e2e2e;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.slider {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: slide 30s infinite;
+}
+@keyframes slide {
+    0%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/asus1.png);
+    }
+    20%{
+        width: 571px;
+        height: 300px;
+        background: url(Images/asus.png);
+    }
+    40%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/Asus_ROG.jpg);
+    }
+    60%{
+        width: 571px;
+        height: 300px;
+        background: url(Images/razer.jpg);
+    }
+    80%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/rtx.jpg);
+    }
+    100%{
+        width: 533px;
+        height: 300px;
+        background: url(Images/steelseries.png);   
+    }
+}
+#centerbox {
+    margin-top: 50px;
+}
+
+#LA h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #2e2e2e;
+}
+
+#I1 img {
+    margin-top: 200px;
+}
+    
+#I2 img {
+    margin-top: 100px;
+}
+#I3 img {
+    margin-top: 330px;
+}
+#I4 img {
+    margin-top: 200px;
+}
+
+#LA1 {
+    margin-top: 175px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#LA1 h2 {
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+#LA2 {
+    margin-top: 175px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#LA2 h2 {
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+#SA h2 {
+    margin-top: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    color: #2e2e2e;
+}
+
+#SA1 {
+    margin-top: 175px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#SA1 h2 {
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+#SA2 {
+    margin-top: 260px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+#SA2 h2 {
+    font-size: 25px;
+    color: #2e2e2e;
+}
+
+#footer {
+    margin-top: 250px;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #666666;
+    color: #cccccc;
+}
+#navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2e2e2e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#logorida {
+    background-color: #2e2e2e;
+    color: #707070;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+#Info {
+    margin-top: 80px;
+}
+
+#footer {
+    margin-top: 250px;
+}
